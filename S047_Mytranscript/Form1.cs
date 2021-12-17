@@ -16,6 +16,13 @@ namespace S047_Mytranscript
         {
             InitializeComponent();
         }
+        class Course
+        {
+            public string CourseID { get; set; }
+            public string CourseName { get; set; }
+            public string CourseCredit { get; set; }
+            public string Grade { get; set; }
+        }
 
         private void AddGrade(object sender, EventArgs e)
         {
